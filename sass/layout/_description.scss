@@ -1,0 +1,11 @@
+.description {
+  background-color: $color-secondary;
+  padding: 3rem 4rem;
+
+  &__copy {
+    @media only screen and (min-width: $bp-smallest) {
+      width: 500px;
+      margin: 0 auto;
+    }
+  }
+}

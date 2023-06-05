@@ -1,0 +1,46 @@
+.drawer {
+  .drawer__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__icon {
+    width: 2rem;
+    height: 2rem;
+    fill: $color-tertiary;
+  }
+
+  &__details {
+    height: 0px;
+    overflow: auto;
+    padding: 0;
+  }
+
+  &__details > ul > li:nth-child(odd) {
+    background-color: $color-light-gray;
+  }
+
+  &__details-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.5rem;
+    gap: 1rem;
+  }
+
+  &__details-item p {
+    width: 50%;
+    font-size: 1.3rem;
+  }
+}

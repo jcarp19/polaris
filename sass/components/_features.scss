@@ -1,0 +1,29 @@
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: $color-white;
+  margin: 0;
+  padding: 3rem 2.5rem;
+  width: 100%;
+  box-sizing: border-box;
+
+  &__sxs {
+    width: 100%;
+  }
+
+  &__trailer {
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  @media only screen and (min-width: $bp-smallest) {
+    align-items: center;
+
+    &__sxs,
+    &__trailer {
+      width: 500px;
+    }
+  }
+}
