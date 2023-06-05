@@ -21,7 +21,8 @@
   }
 
   &__details {
-    height: 0px;
+    height: 0;
+    // height: max-content;
     overflow: auto;
     padding: 0;
   }

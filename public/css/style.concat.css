@@ -122,7 +122,7 @@ header {
   fill: #ff6602; }
 
 .drawer__details {
-  height: 0px;
+  height: 0;
   overflow: auto;
   padding: 0; }
 
